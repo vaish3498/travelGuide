@@ -1,0 +1,44 @@
+.location-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 50vw;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.location-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  height: 100%;
+}
+
+.location-info-container {
+  padding: 10px;
+  width: auto;
+}
+
+.heading {
+  font-size: 20px;
+  font-family: Roboto;
+  text-align: left;
+  color: #475569;
+}
+
+.description {
+  font-size: 15px;
+  font-family: Roboto;
+  text-align: left;
+  color: #64748b;
+}
